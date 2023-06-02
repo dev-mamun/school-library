@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<img src="./1200px-Ruby_logo.svg" alt="logo" width="140"  height="auto" />
+<img src="1200px-Ruby_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 <h3><b>School Library</b></h3>
@@ -31,26 +31,23 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
-**Book Store**  is a React single web page application that list of books list and categories pages. It also allows user to add new book
-
+In this project, i will start building my **school library** app. In this initial step, 
+i will implement the classes to represent students and teachers.
 
 ### 🛠 Tech Stack <a name="tech-stack"></a>
 
-- HTML
-- CSS
-- JavaScript
-- Webpack
-- React
+- [Ruby](https://www.ruby-lang.org/en/)
 - [Linters](https://github.com/microverseinc/linters-config/tree/master/react-redux)
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- [ ] **Display booklist**
-- [ ] **Client side Routing**
+- **Classes**
+- **Methods**
+- **Inheritance** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,12 +62,12 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- GIT
+- [GIT](https://git-scm.com/downloads)
   - if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
-- Linter
-  - You can get install guide from <a href="https://github.com/microverseinc/linters-config/tree/master/html-css">
+- [Linter](https://github.com/microverseinc/linters-config/tree/master/ruby)
+  - You can get install guide from <a href="https://github.com/microverseinc/linters-config/tree/master/ruby">
     here</a>
-- Node.js & Npm
+- [Ruby](https://www.ruby-lang.org/en/)
   - if you don't have npm installed on your machine you can download it from [here](https://nodejs.org/en/)
 
 ### Setup
@@ -79,7 +76,7 @@ Once you have git installed on your machine you can clone project by running the
 To clone your project to your local machine
 
 ```sh
-  git clone https://github.com/dev-mamun/bookstore.git
+  git clone git@github.com:dev-mamun/school-library.git
 ```
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your
@@ -90,31 +87,20 @@ project page and clicking on `Download ZIP`
 Install this project with:
 
 ```sh
-  cd bookstore  
-  npm install
-  npm run build
+  cd school-library  
+  bundle install
 ```
 
 ### Usage
 
-To run the project, use the following : (Port 3000)
+To run the project, use the following:
 
 ```
-  npm start
-  Runs the app in the development mode.\
-  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ruby index.rb
 ```
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Run tests
-
-To run tests, run the following command:
-
-```
-   npm run test
-```
 
 <!-- AUTHORS -->
 
@@ -130,9 +116,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement add book to store functionality**
-- [ ] **Implement remove book functionality**
-- [ ] **Style app to match Zeplin design**
+- **Simple User Interface**
 
 <!-- CONTRIBUTING -->
 
@@ -155,21 +139,11 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Available Scripts <a name="available-scripts"></a>
-
-In the project directory, you can run:
-
-- `npm start` - _To run the app in the development mode._
-- `npm test` - _To launch the test runner in the interactive watch mode._
-- `npm run buid` - _To build the app for production to the build folder.Learn more at [deployment](https://create-react-app.dev/docs/deployment/)_
-- `npm run eject` - _To remove the single build dependency from your project. **Note this is a one-way operation. Once you eject, you can't go back!**_
-
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverseinc organization for designing the project
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
