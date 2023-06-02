@@ -1,6 +1,12 @@
 <a name="readme-top"></a>
 
-<!-- TABLE OF CONTENTS -->
+<div align="center">
+<img src="./1200px-Ruby_logo.svg" alt="logo" width="140"  height="auto" />
+  <br/>
+
+<h3><b>School Library</b></h3>
+
+</div>
 
 # 📗 Table of Contents
 
