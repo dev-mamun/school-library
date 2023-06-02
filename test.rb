@@ -8,7 +8,7 @@ require_relative './rental'
 require_relative './book'
 
 # Create some instances of the classes
-person = Person.new(25, 'John Doe' )
+person = Person.new(25, 'John Doe')
 student = Student.new(18, 'Class A', 'Jane Smith')
 classroom = Classroom.new('Class A')
 book = Book.new('The Great Gatsby', 'F. Scott Fitzgerald')
