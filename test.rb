@@ -1,11 +1,11 @@
-require_relative './person'
-require_relative './base_decorator'
-require_relative './capitalize_decorator'
-require_relative './trimmer_decorator'
-require_relative './student'
+require_relative './module/person'
+require_relative './decorators/base_decorator'
+require_relative './decorators/capitalize_decorator'
+require_relative './decorators/trimmer_decorator'
+require_relative './module/student'
 require_relative './classroom'
-require_relative './rental'
-require_relative './book'
+require_relative './module/rental'
+require_relative './module/book'
 
 # Create some instances of the classes
 person = Person.new(25, 'John Doe')
@@ -16,7 +16,7 @@ book = Book.new('The Great Gatsby', 'F. Scott Fitzgerald')
 # Create a rental between the student and the book
 rental = Rental.new('2023-05-20', book, student)
 
-# Add a decorator to the person's name
+# Add a decorators to the person's name
 decorated_person = CapitalizeDecorator.new(person)
 
 # Trim the name of the decorated person
