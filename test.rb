@@ -1,11 +1,11 @@
-require_relative './person'
+require_relative './module/person'
 require_relative './decorators/base_decorator'
 require_relative './decorators/capitalize_decorator'
 require_relative './decorators/trimmer_decorator'
-require_relative './student'
+require_relative './module/student'
 require_relative './classroom'
-require_relative './rental'
-require_relative './book'
+require_relative './module/rental'
+require_relative './module/book'
 
 # Create some instances of the classes
 person = Person.new(25, 'John Doe')
